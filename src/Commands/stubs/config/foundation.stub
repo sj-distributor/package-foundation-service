@@ -3,6 +3,7 @@ return
 [
     /*队列配置*/
     'rabbitmq_queue' => env('RABBITMQ_QUEUE', ''),
+    'rabbitmq_queue_error' => env('RABBITMQ_QUEUE_ERROR', ''),
     'rabbitmq_host' => env('RABBITMQ_HOST', '127.0.0.1'),
     'rabbitmq_port' => env('RABBITMQ_PORT', '5672'),
     'rabbitmq_vhost' => env('RABBITMQ_VHOST', '/'),
