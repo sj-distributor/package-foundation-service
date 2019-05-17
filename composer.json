@@ -1,0 +1,29 @@
+{
+    "name": "php-team/package-foundation-service",
+    "description": "Foundation Service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tom",
+            "email": "tom@sjfood.us"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "5.*",
+        "illuminate/console": "5.*",
+        "php-amqplib/php-amqplib": "2.7.*"
+    },
+    "require-dev": {
+        "php": ">=7.0.0",
+        "illuminate/support": "5.*",
+        "illuminate/console": "5.*",
+        "php-amqplib/php-amqplib": "2.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpteam\\FoundationService\\": "src/"
+        }
+    }
+}

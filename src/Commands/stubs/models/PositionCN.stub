@@ -1,0 +1,10 @@
+<?php
+
+namespace {{namespace}};
+
+use Phpteam\FoundationService\Models\PositionCN as Position;
+
+class PositionCN extends Position
+{
+    
+}

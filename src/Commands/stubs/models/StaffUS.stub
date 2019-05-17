@@ -1,0 +1,10 @@
+<?php
+
+namespace {{namespace}};
+
+use Phpteam\FoundationService\Models\StaffUS as Staff;
+
+class StaffUS extends Staff
+{
+
+}

@@ -1,0 +1,10 @@
+<?php
+
+namespace {{namespace}};
+
+use Phpteam\FoundationService\Models\UnitUS as Unit;
+
+class UnitUS extends Unit
+{
+
+}
