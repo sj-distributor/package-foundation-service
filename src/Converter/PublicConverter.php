@@ -17,6 +17,8 @@ class PublicConverter
 
         $transformData = [];
 
+        if (!isset($data['positionStatus'])) $data['positionStatus'] = 0;
+
         foreach ($data as $key => $value)
         {
 
