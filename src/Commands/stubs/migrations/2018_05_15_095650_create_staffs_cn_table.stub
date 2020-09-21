@@ -48,7 +48,7 @@ class CreateStaffsCnTable extends Migration
             $table->unsignedTinyInteger('education')->default(0);
             $table->char('bank_name', 20)->nullable();
             $table->char('bank_number', 30)->nullable();
-            $table->char('phone_number', 20)->nullable();
+            $table->char('phone_number', 50)->nullable();
             $table->char('email', 50)->nullable();
             $table->date('hired_date')->nullable();
             $table->unsignedTinyInteger('contract_status')->default(0);
